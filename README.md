@@ -19,6 +19,14 @@ You can find it in the logs with:
 docker logs teamspeak
 ```
 
+### Docker Compose
+```
+git clone https://github.com/hafenio/docker-teamspeak && \
+cd docker-teamspeak && docker compose up -d
+```
+
+
+
 #### Ports:
 
 * 9987/udp: Default Port
